@@ -1,0 +1,36 @@
+###GET User
+GET http://localhost:3000/users?page=1&limit=5
+Content-Type: application/json
+
+###GET User by Name
+GET http://localhost:3000/users/search?name=Jonh&page=1&limit=5
+Content-Type: application/json
+
+
+###GET User by ID
+GET http://localhost:3000/users/1
+Content-Type: application/json
+
+###POST Create User
+POST http://localhost:3000/users/create
+Content-Type: application/json
+
+{
+  "firstName": "Jonh12",
+  "email": "abc@gmail.com",
+  "password": "123456"
+}
+
+
+###PUT Update User
+PUT http://localhost:3000/users/update/1
+Content-Type: application/json
+
+{
+  "firstName": "Jonh123",
+  "email": "def@gmail.com"
+}
+
+####DELETE User
+DELETE http://localhost:3000/users/delete/1
+Content-Type: application/json
