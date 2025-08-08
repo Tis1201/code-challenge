@@ -1,6 +1,7 @@
+import { User } from "@prisma/client";
 import { CreateUserDto } from "../../dtos/user/user-create.dto";
 import { UpdateUserDto } from "../../dtos/user/user-update.dto";
-import { User } from "../../generated/prisma";
+
 
 export interface IUserRepository {
     findMany(skip: number, take: number): Promise<User[]>;

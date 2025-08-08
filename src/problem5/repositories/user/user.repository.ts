@@ -1,9 +1,11 @@
 import { Service, Inject } from "typedi";
 
 import { IUserRepository } from "./user.repository.implement";
-import { PrismaClient, User } from "../../generated/prisma";
+
 import { CreateUserDto } from "../../dtos/user/user-create.dto";
 import { UpdateUserDto } from "../../dtos/user/user-update.dto";
+import { PrismaClient, User } from "@prisma/client";
+
 
 @Service()
 export class UserRepository implements IUserRepository {

@@ -3,7 +3,7 @@ GET http://localhost:3000/users?page=1&limit=5
 Content-Type: application/json
 
 ###GET User by Name
-GET http://localhost:3000/users/search?name=Jonh&page=1&limit=5
+GET http://localhost:3000/users/search?name=J&page=1&limit=5
 Content-Type: application/json
 
 
@@ -16,8 +16,8 @@ POST http://localhost:3000/users/create
 Content-Type: application/json
 
 {
-  "firstName": "Jonh12",
-  "email": "abc@gmail.com",
+  "firstName": "Jonh122",
+  "email": "abc1@gmail.com",
   "password": "123456"
 }
 

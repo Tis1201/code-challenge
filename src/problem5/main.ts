@@ -4,7 +4,8 @@ import { Container } from "typedi";
 import { UserController } from "./controllers/user.controller";
 import { GlobalErrorHandler } from "./middlewares/error-handler";
 import * as dotenv from "dotenv";
-import { PrismaClient } from "./generated/prisma";
+import { PrismaClient } from "@prisma/client";
+
 
 dotenv.config();
 
