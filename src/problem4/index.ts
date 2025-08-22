@@ -1,7 +1,7 @@
 /*
- * This function uses the mathematical formula for the sum of the first n natural numbers.
+ * This function uses a for loop to sum the first n natural numbers.
  *
- * Time Complexity: O(1) - Calculation is done in constant time.
+ * Time Complexity: O(n) - The loop runs n times.
  * Space Complexity: O(1) - Uses a constant amount of space
 */
 
